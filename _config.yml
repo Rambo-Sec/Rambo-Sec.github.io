@@ -1,0 +1,40 @@
+title: RamboSec
+description: >-
+  Cybersecurity portfolio, certification tracker, and technical write ups by Niko Gonzalez.
+url: "https://rambosec.com"
+baseurl: ""
+domain: rambosec.com
+lang: en
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+timezone: America/New_York
+future: false
+show_excerpts: true
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Niko Gonzalez
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

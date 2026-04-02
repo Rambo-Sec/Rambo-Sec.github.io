@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+description: Technical notes, project write ups, and certification reflections.
+---
+
+<div class="post-list">
+  {% for post in site.posts %}
+  <article class="panel post-list-item">
+    <p class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 220 }}</p>
+    <a class="text-link" href="{{ post.url | relative_url }}">Read post</a>
+  </article>
+  {% endfor %}
+</div>

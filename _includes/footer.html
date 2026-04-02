@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-title">RamboSec</p>
+      <p class="muted">Cybersecurity portfolio, technical notes, and professional write ups.</p>
+    </div>
+    <div>
+      <p class="footer-title">Links</p>
+      <ul class="footer-links">
+        {% for item in site.data.navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <p class="footer-title">Profiles</p>
+      <ul class="footer-links">
+        {% for entry in site.data.social %}
+          <li><a href="{{ entry[1].url }}">{{ entry[1].label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {{ 'now' | date: '%Y' }} RamboSec | Nicholas Gonzalez</p>
+  </div>
+</footer>

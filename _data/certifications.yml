@@ -1,0 +1,45 @@
+- name: Linux+
+  issuer: CompTIA
+  issued: February 2026
+  expires: February 2029
+  status: Active
+  credential_id: "c02411abc41a4d988db5e09f3e78b606"
+  verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/1c021974c2c34aebb33289f64c1c0e12"
+
+- name: Network+
+  issuer: CompTIA
+  issued: April 2025
+  expires: April 2028
+  status: Active
+  credential_id: "1SKV6RNSTN1EYN1J"
+  verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/1SKV6RNSTN1EYN1J"
+
+- name: Power Platform Fundamentals (PL-900)
+  issuer: Microsoft
+  issued: December 2024
+  expires: ""
+  status: Active
+  credential_id: "33FDA8-F708B9"
+  verify_url: "https://learn.microsoft.com/api/credentials/share/en-us/RamboSec/DA09FC139A40E50?sharingId=3E1B603AFC33EA21"
+
+- name: Bachelor of Science in Cybersecurity
+  issuer: University of South Florida
+  issued: December 2023
+  status: Active
+  verify_url: "https://www.michaelsutter.com/ediploma?fn=diplomastatuscheck&key=02000000c45d6a1f0e2e90336df7ec5e0daebbf0582bc8648a6f5d98134dfbee890dc7e90fd01c7226f500ccccc846bdfe0aac533e8f07f35599d34e7fe4bf90cd060620"
+
+- name: Cybersecurity Analyst (CySA+)
+  issuer: CompTIA
+  issued: November 2023
+  expires: November 2026
+  status: Active
+  credential_id: "ZZEFCGGRBBEQ1TSY"
+  verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/ZZEFCGGRBBEQ1TSY"
+
+- name: Security+
+  issuer: CompTIA
+  issued: October 2023
+  expires: October 2026
+  status: Active
+  credential_id: "WMD04NWZBBVE1B9C"
+  verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/WMD04NWZBBVE1B9C"

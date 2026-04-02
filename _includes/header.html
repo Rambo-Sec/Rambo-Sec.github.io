@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand brand-image" href="{{ '/' | relative_url }}" aria-label="RamboSec home">
+      <img
+        src="{{ '/assets/images/rambosec-title-logo-white.png' | relative_url }}"
+        alt="RamboSec"
+        class="brand-logo"
+      >
+      <span class="sr-only">RamboSec</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation %}
+        {% assign is_active = false %}
+        {% if page.url == item.url %}
+          {% assign is_active = true %}
+        {% endif %}
+        {% if item.url == '/blog/' and page.collection == 'posts' %}
+          {% assign is_active = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
