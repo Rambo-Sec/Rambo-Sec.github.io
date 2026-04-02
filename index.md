@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Cybersecurity portfolio, certifications, projects, and technical writeups by Niko Gonzalez.
+description: Cybersecurity portfolio, certifications, projects, and technical writeups by Nicholas Gonzalez.
 ---
 
 <section class="hero">

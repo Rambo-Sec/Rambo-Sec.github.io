@@ -1,6 +1,6 @@
 title: RamboSec
 description: >-
-  Cybersecurity portfolio, certification tracker, and technical write ups by Niko Gonzalez.
+  Cybersecurity portfolio, certification tracker, and technical write ups by Nicholas Gonzalez.
 url: "https://rambosec.com"
 baseurl: ""
 domain: rambosec.com
@@ -23,7 +23,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-      author: Niko Gonzalez
+      author: Nicholas Gonzalez
   -
     scope:
       path: ""
