@@ -1,3 +1,11 @@
+- name: Practical OSINT Research Professional (PORP)
+  issuer: TCM Security
+  issued: April 2026
+  expires: ""
+  status: Active
+  credential_id: "179291244"
+  verify_url: "https://certified.tcm-sec.com/13306dde-7657-4c02-ad9f-ff94412f8ec6#acc.hCTxuO3n"
+
 - name: Linux+
   issuer: CompTIA
   issued: February 2026
