@@ -1,3 +1,11 @@
+- name: SecurityX
+  issuer: CompTIA
+  issued: April 2026
+  expires: April 2029
+  status: Active
+  credential_id: "a4260617da48444daf192d08333cde8e"
+  verify_url: "https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a4260617da48444daf192d08333cde8e"
+
 - name: Practical OSINT Research Professional (PORP)
   issuer: TCM Security
   issued: April 2026
@@ -17,7 +25,7 @@
 - name: Network+
   issuer: CompTIA
   issued: April 2025
-  expires: April 2028
+  expires: April 2029
   status: Active
   credential_id: "1SKV6RNSTN1EYN1J"
   verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/1SKV6RNSTN1EYN1J"
@@ -39,7 +47,7 @@
 - name: Cybersecurity Analyst (CySA+)
   issuer: CompTIA
   issued: November 2023
-  expires: November 2026
+  expires: April 2029
   status: Active
   credential_id: "ZZEFCGGRBBEQ1TSY"
   verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/ZZEFCGGRBBEQ1TSY"
@@ -47,7 +55,7 @@
 - name: Security+
   issuer: CompTIA
   issued: October 2023
-  expires: October 2026
+  expires: April 2029
   status: Active
   credential_id: "WMD04NWZBBVE1B9C"
   verify_url: "https://cp.certmetrics.com/comptia/en/public/verify/credential/WMD04NWZBBVE1B9C"
