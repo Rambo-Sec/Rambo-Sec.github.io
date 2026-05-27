@@ -7,3 +7,6 @@ tryhackme:
 photography:
   label: Photography
   url: "https://nikogphotos.com"
+fpv:
+  label: Niko FPV
+  url: "https://nikofpv.com"
